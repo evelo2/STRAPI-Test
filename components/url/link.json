@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_url_links",
+  "info": {
+    "name": "Link",
+    "icon": "crosshairs"
+  },
+  "options": {},
+  "attributes": {
+    "Url": {
+      "type": "string"
+    },
+    "ariaLabel": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_new",
+        "_blank",
+        "_self"
+      ]
+    }
+  }
+}

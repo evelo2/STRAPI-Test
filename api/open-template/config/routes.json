@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/open-templates",
+      "handler": "open-template.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/open-templates/count",
+      "handler": "open-template.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/open-templates/:id",
+      "handler": "open-template.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/open-templates",
+      "handler": "open-template.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/open-templates/:id",
+      "handler": "open-template.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/open-templates/:id",
+      "handler": "open-template.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

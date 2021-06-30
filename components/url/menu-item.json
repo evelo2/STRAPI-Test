@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_url_menu_items",
+  "info": {
+    "name": "Menu Item",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "url.link"
+    },
+    "sublinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.link"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0,
+      "required": true,
+      "min": 0
+    }
+  }
+}
