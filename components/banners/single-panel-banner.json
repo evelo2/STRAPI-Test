@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_banners_single_panel_banners",
+  "info": {
+    "name": "singlePanelBanner",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "template": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banners.template"
+    },
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "line1": {
+      "type": "string"
+    },
+    "line2": {
+      "type": "string"
+    },
+    "line3": {
+      "type": "string"
+    },
+    "line4": {
+      "type": "string"
+    },
+    "line5": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "url.link"
+    },
+    "overrides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banners.text-override"
+    }
+  }
+}

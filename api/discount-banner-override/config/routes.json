@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/discount-banner-overrides",
+      "handler": "discount-banner-override.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/discount-banner-overrides/count",
+      "handler": "discount-banner-override.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/discount-banner-overrides/:id",
+      "handler": "discount-banner-override.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/discount-banner-overrides",
+      "handler": "discount-banner-override.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/discount-banner-overrides/:id",
+      "handler": "discount-banner-override.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/discount-banner-overrides/:id",
+      "handler": "discount-banner-override.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

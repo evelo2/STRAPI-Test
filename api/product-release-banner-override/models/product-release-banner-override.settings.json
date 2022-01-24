@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_release_banner_overrides",
+  "info": {
+    "name": "ProductReleaseBannerOverride"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Division": {
+      "type": "enumeration",
+      "enum": [
+        "gtb",
+        "gwe",
+        "gww"
+      ]
+    },
+    "Brand": {
+      "type": "string"
+    },
+    "BrandOverride": {
+      "type": "boolean"
+    }
+  }
+}

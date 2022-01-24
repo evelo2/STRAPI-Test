@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_banners_templates",
+  "info": {
+    "name": "template",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "templateSet": {
+      "type": "string"
+    },
+    "template": {
+      "type": "string"
+    }
+  }
+}

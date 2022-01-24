@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-release-banner-overrides",
+      "handler": "product-release-banner-override.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-release-banner-overrides/count",
+      "handler": "product-release-banner-override.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-release-banner-overrides/:id",
+      "handler": "product-release-banner-override.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/product-release-banner-overrides",
+      "handler": "product-release-banner-override.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-release-banner-overrides/:id",
+      "handler": "product-release-banner-override.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-release-banner-overrides/:id",
+      "handler": "product-release-banner-override.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

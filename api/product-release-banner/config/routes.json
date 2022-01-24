@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-release-banners",
+      "handler": "product-release-banner.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-release-banners/count",
+      "handler": "product-release-banner.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-release-banners/:id",
+      "handler": "product-release-banner.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/product-release-banners",
+      "handler": "product-release-banner.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-release-banners/:id",
+      "handler": "product-release-banner.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-release-banners/:id",
+      "handler": "product-release-banner.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

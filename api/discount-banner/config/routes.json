@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/discount-banners",
+      "handler": "discount-banner.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/discount-banners/count",
+      "handler": "discount-banner.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/discount-banners/:id",
+      "handler": "discount-banner.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/discount-banners",
+      "handler": "discount-banner.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/discount-banners/:id",
+      "handler": "discount-banner.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/discount-banners/:id",
+      "handler": "discount-banner.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

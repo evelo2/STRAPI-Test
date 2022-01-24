@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_banners_tile_banner_with_images",
+  "info": {
+    "name": "tileBannerWithImage",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "template": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banners.template"
+    },
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "line1": {
+      "type": "string"
+    },
+    "line2": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "overrides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banners.text-override"
+    }
+  }
+}

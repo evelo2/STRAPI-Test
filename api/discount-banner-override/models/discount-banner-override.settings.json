@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "discount_banner_overrides",
+  "info": {
+    "name": "DiscountBannerOverride"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "division": {
+      "type": "enumeration",
+      "enum": [
+        "gtb",
+        "gwe",
+        "gww"
+      ]
+    },
+    "SalePrice": {
+      "type": "string"
+    },
+    "SalePriceOverride": {
+      "type": "boolean"
+    }
+  }
+}

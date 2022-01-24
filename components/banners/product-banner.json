@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_banners_product_banners",
+  "info": {
+    "name": "productBanner",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "line1": {
+      "type": "string"
+    },
+    "line2": {
+      "type": "string"
+    },
+    "line3": {
+      "type": "string"
+    },
+    "line4": {
+      "type": "string"
+    },
+    "line5": {
+      "type": "string"
+    },
+    "line6": {
+      "type": "string"
+    },
+    "productImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "name": {
+      "type": "string"
+    },
+    "template": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banners.template"
+    }
+  }
+}

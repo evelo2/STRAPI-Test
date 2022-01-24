@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_release_banners",
+  "info": {
+    "name": "ProductReleaseBanner",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ProductName": {
+      "type": "string"
+    },
+    "Brand": {
+      "type": "string"
+    },
+    "product_release_banner_overrides": {
+      "collection": "product-release-banner-override"
+    }
+  }
+}

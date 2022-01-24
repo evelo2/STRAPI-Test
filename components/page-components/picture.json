@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_components_pictures",
+  "info": {
+    "name": "Picture",
+    "icon": "camera"
+  },
+  "options": {},
+  "attributes": {
+    "sources": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-components.image-element"
+    },
+    "name": {
+      "type": "string"
+    },
+    "css": {
+      "type": "string"
+    }
+  }
+}

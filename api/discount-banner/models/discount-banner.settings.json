@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "discount_banners",
+  "info": {
+    "name": "DiscountBanner",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ProductName": {
+      "type": "string"
+    },
+    "SalePrice": {
+      "type": "string"
+    },
+    "discount_banner_overrides": {
+      "collection": "discount-banner-override"
+    }
+  }
+}

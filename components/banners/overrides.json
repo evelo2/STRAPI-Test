@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_banners_overrides",
+  "info": {
+    "name": "overrides",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "division": {
+      "type": "enumeration",
+      "enum": [
+        "gtb",
+        "gwe",
+        "gww"
+      ]
+    },
+    "textoverrides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banners.text-override"
+    },
+    "temp": {
+      "type": "string"
+    }
+  }
+}

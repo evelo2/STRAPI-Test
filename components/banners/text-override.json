@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_banners_text_overrides",
+  "info": {
+    "name": "textOverride",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

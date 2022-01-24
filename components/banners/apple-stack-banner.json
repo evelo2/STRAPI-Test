@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_banners_apple_stack_banners",
+  "info": {
+    "name": "AppleStackBanner",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "template": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banners.template"
+    },
+    "name": {
+      "type": "string"
+    },
+    "productTitle": {
+      "type": "string"
+    },
+    "tagline1": {
+      "type": "string"
+    },
+    "tagline2": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "url.link"
+    },
+    "productImage": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "overrides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banners.text-override"
+    }
+  }
+}
